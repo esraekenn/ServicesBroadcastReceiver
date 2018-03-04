@@ -53,7 +53,14 @@ class MainActivity : AppCompatActivity() {
 
         startService(intent)
 
-        txtServiceStatus.text = "Donwload Service Started"
+        txtServiceStatus.text = "Download Service Started"
+    }
+
+    fun btnAldattiBizi(view : View){
+
+        val intent = Intent()
+        intent.action = "com.androidedu.cheatedbabe.aldattibizi"
+        sendBroadcast(intent)
     }
 
     override fun onResume() {
