@@ -17,7 +17,7 @@ import android.widget.Toast
 
 class AldattiBiziReceiver : BroadcastReceiver() {
 
-    override fun onReceive(context: Context, ıntent: Intent) {
+    override fun onReceive(context: Context, intent: Intent) {
 
         val vibrator = context.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
 
